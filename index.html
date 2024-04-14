@@ -1,0 +1,23 @@
+<html>
+    <head>
+        <link href="style.css" rel="stylesheet">
+    </head>
+<body>
+<h1>4의 배수일까 아닐까</h1>
+<script>
+    var i = prompt("숫자를 입력 하시오.") //변수 i를 유저의 입력값으로 설정
+
+    if (i !== null) {
+        
+        if (i % 4 == 0) {
+            document.write("<big><b>" + i + "</big></b>" + "는 <big><b>4</big></b>의 배수입니다.");
+        }
+        else {
+            document.write("<big><b>" + i + "</big></b>" + "는 <big><b>4</big></b>의 배수가 아닙니다.");
+        }
+    
+    
+    } //입력값이 null이 아닐 경우 변수 i 나누기 4를 한다. 만일 그 값이 0일 경우 4의 배수라고 쓰고, 아닐경우 4의 배수가 아니라고 쓴다.
+</script>
+</body>
+</html>
